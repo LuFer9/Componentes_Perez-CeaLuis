@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.text.Font?>
+
+<fx:root id="AnchorPane" prefHeight="400.0" prefWidth="600.0" spacing="10.0" type="javafx.scene.layout.HBox" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1">
+    <Label fx:id="lb1" text="Temporizador:" textFill="RED">
+      <font>
+         <Font name="Gabriola" size="33.0" />
+      </font></Label>
+    <Label fx:id="labelTemp" text="&lt;Tiempo&gt;">
+      <font>
+         <Font name="Gabriola" size="33.0" />
+      </font></Label>
+    <Label fx:id="lbSegundos" text="s" textFill="#0000f5">
+      <font>
+         <Font name="Gabriola" size="33.0" />
+      </font></Label>
+</fx:root>
